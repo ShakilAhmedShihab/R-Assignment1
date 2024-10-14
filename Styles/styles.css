@@ -60,6 +60,9 @@ nav {
   line-height: 68px;
 }
 .banner-description-2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1212px;
   color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
@@ -69,6 +72,8 @@ nav {
   line-height: 26px;
 }
 .banner-button {
+  max-width: 244px;
+  max-height: 65px;
   display: flex;
   padding: 21px 24px;
   justify-content: center;
@@ -83,6 +88,10 @@ nav {
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
 }
 .nav-name {
   color: #0d1321;
@@ -149,6 +158,7 @@ nav {
   background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 .first-description {
+  margin-top: -20px;
   width: 468px;
   color: #0d1321;
   font-family: "Azeret Mono";
@@ -172,6 +182,22 @@ nav {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
+}
+.learn-more-up {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .second {
   display: flex;
@@ -392,11 +418,12 @@ footer {
   line-height: normal;
 }
 /* Next targer section */
-.next-target{
+.next-target {
   margin-top: 110px;
 }
-.next-targer-title{
-  align-self: stretch;color: #0D1321;
+.next-targer-title {
+  align-self: stretch;
+  color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 32px;
@@ -405,7 +432,7 @@ footer {
   line-height: normal;
   margin-bottom: 60px;
 }
-.next-targer-linegap{
+.next-targer-linegap {
   margin-bottom: 24px;
 }
 .next-t-css {
@@ -436,18 +463,21 @@ footer {
   align-items: center;
   gap: 24px;
 }
-.rs{
+.rs {
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
   gap: 10px;
 }
-.react-learn-more{
-  align-self: stretch;color: #0D1321;
+.react-learn-more {
+  align-self: stretch;
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
+  overflow-y: scroll;
 }
+
